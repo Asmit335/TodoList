@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main_div {
+    width: 100vw;
+    height: 100vh;
+    background: #6983aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 80vh;
+    background: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+h1 {
+    color: #fff;
+    background: transparent;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    background: #20bf6b;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    width: 66%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+}
+
+button {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    background: #20bf6b;
+}
+
+button:hover {
+    background: #0e964e;
+    cursor: pointer;
+}
+
+ol {
+    margin-top: 30px;
+}
+
+ol li {
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #8566aa;
+    /* color: red; */
+    text-transform: capitalize;
+}
+
+.todo_style {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: left;
+    align-items: center;
+}
+
+.todo_style .fa-trash {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #85666a; */
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: #111;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-trash:hover {
+    color: crimson;
+}
+
+
+/* .todo_style .fa-trash:hover .list_style{
+    color: crimson;
+ } */
+
+
+/* @media(max-width: 760px) {
+     .center_div {
+         width: 55%;
+     }
+ 
+    .todo_style .fa-time {
+     margin: 0 15px 0 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+  */
+
+
+/* button{
+     margin-left: 5px;
+     min-height: 40px;
+     width: 40px;
+     color: #fff;
+     font-size: 30px;
+ }
+ } */
